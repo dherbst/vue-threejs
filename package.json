@@ -15,7 +15,8 @@
     "test:unit": "vue-cli-service test:unit",
     "test": "npm run test:unit",
     "lint": "vue-cli-service lint",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "npm run build"
   },
   "peerDependencies": {
     "three": ">=0.133.1",
@@ -65,12 +66,11 @@
     "not ie <= 8"
   ],
   "files": [
-    "VueThreejs.common.js",
-    "VueThreejs.common.js.map",
-    "VueThreejs.umd.js",
-    "VueThreejs.umd.js.map",
-    "VueThreejs.umd.min.js",
-    "VueThreejs.umd.min.js.map",
-    "demo.html"
+    "lib/VueThreejs.common.js",
+    "lib/VueThreejs.common.js.map",
+    "lib/VueThreejs.umd.js",
+    "lib/VueThreejs.umd.js.map",
+    "lib/VueThreejs.umd.min.js",
+    "lib/VueThreejs.umd.min.js.map"
   ]
 }
