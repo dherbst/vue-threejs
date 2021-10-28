@@ -15,8 +15,7 @@
     "test:unit": "vue-cli-service test:unit",
     "test": "npm run test:unit",
     "lint": "vue-cli-service lint",
-    "prepare": "npm run build",
-    "postinstall": "npm run build"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "three": ">=0.133.1",
